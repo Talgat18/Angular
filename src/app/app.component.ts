@@ -8,7 +8,6 @@ import { OnInit } from '@angular/core';
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet, HttpClientModule],
-  providers: [HttpClient],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
